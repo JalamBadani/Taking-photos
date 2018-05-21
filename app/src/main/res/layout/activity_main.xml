@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg3"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="41dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_camera"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="98dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_gallery"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barfak"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="221dp"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
